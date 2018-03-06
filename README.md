@@ -1,14 +1,14 @@
-#Paragraph Formatter
-``
+# Paragraph Formatter
+
 This module provides an additional formatter "Paragraph Id(s)" for entity_reference_revision fields.
 
-##Common use-case of this module:
+## Common use-case of this module:
 
 you would like to create a view in "Serializer" format to output entities and its referenced paragraphs in JSON format 
 for example. The default use of the views-feature "Relationships" causes potentially several rows for an entity: a row 
 by paragraph/entity-reference value. By the use of this little helper-module you can use a sub-view in your main-view 
 that outputs the paragraph fields of your choice.
-###Quick-and-dirty HowTo:
+### Quick-and-dirty HowTo:
 * Install the module "Views Field View" which let's you integrate a sub-view in your main view. 
 https://www.drupal.org/project/views_field_view
 * Install this module "Paragraph Formatter".
