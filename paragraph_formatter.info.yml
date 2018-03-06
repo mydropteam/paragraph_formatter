@@ -1,0 +1,8 @@
+name: Paragraph Formatter
+type: module
+description: Provides additional paragraph formatters for entity-reference-revision fields.
+dependencies:
+  - paragraphs:paragraphs
+
+package: Paragraphs
+core: '8.x'
